@@ -1,5 +1,24 @@
-import React from "react"
+import React from "react";
+import { projectData } from "../projectData";
 
 export default function Project() {
-    return <h1>Project Page!</h1>
+    return (
+        <div className="projects-container">
+            {projectData.map((data, id) => {
+                return(
+                    <div key={id}>
+                        {data.name + 
+                        "," + 
+                        data.description + 
+                        "," +
+                        data.image + 
+                        "," + 
+                        data.technologies +
+                        "," +
+                        data.date}
+                    </div>
+                )
+            })}
+        </div>
+    )
 }
