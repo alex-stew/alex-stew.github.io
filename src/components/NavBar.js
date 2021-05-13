@@ -14,13 +14,13 @@ export default function NavBar() {
                 </div>
                 <div className="container flex justify-end">
                     <nav className="flex">
-                        <NavLink to = "/project" activeClassName="text-gray-900 border-2" className="inline-flex items-center py-3 px-3 my-10 rounded text-gray-900 hover:text-gray-600 font-bold">
+                        <NavLink to = "/project" activeClassName="text-gray-900 border-2" className="inline-flex items-center px-3 py-0 rounded text-gray-900 hover:text-gray-600 font-bold">
                             PROJECTS
                         </NavLink>
-                        <NavLink to = "/post" activeClassName="text-gray-900 border-2" className="inline-flex items-center py-3 px-3 my-10 rounded text-gray-900 hover:text-gray-600 font-bold">
+                        <NavLink to = "/post" activeClassName="text-gray-900 border-2" className="inline-flex items-center px-3 py-0 rounded text-gray-900 hover:text-gray-600 font-bold">
                             THOUGHTS
                         </NavLink>
-                        <NavLink to = "/contact" activeClassName="text-gray-900 border-2" className="inline-flex items-center py-3 px-3 my-10 rounded text-gray-900 hover:text-gray-600 font-bold">
+                        <NavLink to = "/contact" activeClassName="text-gray-900 border-2" className="inline-flex items-center px-3 py-0 rounded text-gray-900 hover:text-gray-600 font-bold">
                             CONTACT
                         </NavLink>
                     </nav>           
