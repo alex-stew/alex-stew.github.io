@@ -23,7 +23,7 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <div className="py-12 bg-black px-16">
+    <div className="h-full py-12 bg-black px-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="cols-span-1 md:cols-span-1 flex justify-end">
           <div className="box-content w-72 pb-8 md:pb-16 pt-2 md:pt-16 pr-8 md:pr-0">

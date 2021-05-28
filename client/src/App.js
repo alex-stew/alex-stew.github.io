@@ -11,7 +11,7 @@ import projectData from "./projectData";
 function App() {
     return (
       <Router>
-        <div>
+        <div className="h-full flex flex-col justify-between">
           <NavBar />
           <Switch>
             <Route path='/' exact render={() => <Home projectData = { projectData } />}/>
@@ -24,5 +24,4 @@ function App() {
     );
   }
 
-
-export default App;
+  export default App;

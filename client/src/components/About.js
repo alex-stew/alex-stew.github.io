@@ -6,7 +6,7 @@ function About() {
             backgroundImage: `url(${"/splash.jpeg"})`,
             backgroundSize: "cover"
             }}>
-            <div className="backdrop-filter backdrop-blur-sm p-4 md:py-12 md:px-12 lg:px-24 xl:px-36 2xl:px-48"> 
+            <div className="backdrop-filter backdrop-blur-sm h-full p-4 md:py-12 md:px-12 lg:px-24 xl:px-36 2xl:px-48"> 
                 <div className="container bg-black flex w-5/6 mx-auto px-8 py-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-items-center">
                         <div className="cols-span-1" >
@@ -16,7 +16,7 @@ function About() {
                         <div className="cols-span-1">
                             <h1 className="bg-clip-text bg-gradient-to-r from-blue-400 to-green-500 text-transparent text-2xl text-center md:text-3xl font-bold">A bit about me:</h1>
                             <hr></hr>
-                            <p className="text-gray-300 align-middle text-xl text-center md:text-2xl md:text-justify pt-2">
+                            <p className="text-gray-300 text-lg text-center md:text-2xl md:text-justify pt-2">
                                 I recently decided to make a career change after working in the finance industry for half a
                                         decade. A
                                         big reason
